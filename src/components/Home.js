@@ -6,7 +6,7 @@ var lang = 'language=en';
 var country = '&country=in'
 var category = ''
 var search = ''
-var api = '&apiKey=5adacf7ef91044ab8135ca29834d5a14'
+var api = '&apiKey=153a1cd270064dbc89c62240fc8d8981'
 var url = `https://newsapi.org/v2/top-headlines?${lang}${country}${category}${search}${api}`;
 
 class Home extends Component {
